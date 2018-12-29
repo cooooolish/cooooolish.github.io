@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[git常用命令]]></title>
+    <url>%2Fgit%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[1.本地初始化git目录1git init 2.新建文件并且写入内容12touch a.txtecho "new data" &gt;&gt; a.txt 3.添加到暂存区12git add .git commit -m "提交更新" 4.添加远程仓库1git remote add origin https://github.com/xxx/test.git 5.本地仓库也远程仓库关联1git branch --set-upstream-to=origin/master master 6.拉取远程仓库内容到本地1git pull origin master --allow-unrelated-histories 7.将最新的内容推送到远程仓库1git push]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+</search>
